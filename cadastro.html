@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>COFFEE BISTRÔ</title>
+		<meta charset="utf-8" />
+		<meta name="author" content="Silmara Campos" />
+		<meta name="keywords" content="CoffeeBistro, coffee, bistrô, cafeteria, café" />
+		<meta name="description" content="Coffee Bistro a melhor cafeteria da região" />
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+	</head>
+	<body>
+		<header>
+			<img id="img-topo" src="img/banner.png" alt="banner contendo o nome coffee bistrô acompanhado de duas imagens de xicaras de café"/>
+		</header>
+
+			<nav>
+				<a class="a-menu" href="index.html"> HOME </a>
+				<a class="a-menu" href="index.html#pag-maispedidos"> MAIS PEDIDOS </a>
+				<a class="a-menu" href="index.html#pag-atendimento"> ATENDIMENTO </a>
+				<a class="a-menu" href="#"> CADASTRE-SE </a>
+			</nav>
+
+		<section id="pag-cadastro">	
+			<h1>Cadastre-se</h1>
+
+
+			<p> Cadastre-se e saiba mais!</p>
+
+			<form name="" method="" action="">
+			<label for="nome">Nome:</label>
+			<input id="nome" type="text" name="nome_completo"placeholder="Nome Completo" required autofocus />
+
+			<label for="email">E-mail:</label>
+			<input id="email" type="email" name="email"placeholder="nomeusuario@gmail.com"/>
+
+			<label for="senha">Senha:</label>
+			<input id="senha" type="password" name="senha" placeholder="somente números"/>
+
+			<label for="celular">Celular:</label>
+			<input id="celular" type="tel" name="celular" placeholder="(00)00000-0000" pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$" />
+
+		<fieldset>
+			<legend>Deseja receber e-mail com nossas novidades?</legend>
+			<input id="sim" type="radio" name="receber" value="sim"> <label for="sim">Sim</label>
+			<input id="nao" type="radio" name="receber" value="nao"> <label for="nao">Não</label>
+		</fieldset>
+
+		<label for="msg">Mensagem:</label>
+		<textarea id="msg" cols="80" rows="4">
+		</textarea>
+
+			<div class="container" >
+				<input type="submit" name="btn-agendar" value="CADASTRAR"/> 
+				<input type="reset" name="btn-cancelar" value="CANCELAR" />
+			</div>
+		</form>	
+			
+		</section>
+
+		<footer>	
+			<p>Desenvolvido por <a href="https://www.instagram.com/sil.027/" target="_blank">Silmara Campos</a> - 2023</p>
+		</footer>
+	</body>
+</html>
